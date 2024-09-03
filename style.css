@@ -1,3 +1,13 @@
+:root{
+    --backcolor: #f6f8f9;
+    --buttontask: #47adf1;
+    --editorial: #45abe9;
+    --Q1: #9c72e4;
+    --Recruiting: #64c0a9;
+    --Mobile: #f29e33;
+    --Website: #d863a0;
+    --Sales: #b0c926;
+}
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
@@ -24,7 +34,7 @@ header{
 }
 
 .backcolor{
-    background-color: rgb(240, 240, 240);
+    background-color: var(--backcolor);
     padding-top: 50px;
     padding-bottom: 110px;
 }
@@ -45,18 +55,18 @@ header{
 #buttontask {
     width: 95px;
     height: 35px;
-    background-color: rgb(0, 132, 255);
+    background-color: var(--buttontask);
     color: white;
     border-radius: 10px;
     font-size: 14px;
-    border-color: rgb(0, 132, 255);
+    border-color: var(--buttontask);
 }
 
 #buttonsection{
     width: 100px;
     height: 35px;
     background-color: rgb(255, 255, 255);
-    color: rgb(155, 155, 155);
+    color: gray;
     border-radius: 10px;
     font-size: 14px;
     border-color: gray;
@@ -80,7 +90,7 @@ h2{
 }
 
 .Editorials{
-    background-color: rgb(0, 125, 241);
+    background-color: var(--editorial);
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
     color: white;
@@ -88,7 +98,7 @@ h2{
 }
 
 .Q1{
-    background-color: rgb(180, 0, 235);
+    background-color: var(--Q1);
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
     color: white;
@@ -96,7 +106,7 @@ h2{
 }
 
 .Recruiting{
-    background-color: rgb(0, 155, 96);
+    background-color: var(--Recruiting);
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
     color: white;
@@ -104,7 +114,7 @@ h2{
 }
 
 .Mobile{
-    background-color: rgb(211, 102, 0);
+    background-color: var(--Mobile);
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
     color: white;
@@ -112,7 +122,7 @@ h2{
 }
 
 .Website{
-    background-color: rgb(255, 0, 140);
+    background-color: var(--Website);
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
     color: white;
@@ -120,7 +130,7 @@ h2{
 }
 
 .Sales{
-    background-color: rgb(83, 156, 0);
+    background-color: var(--Sales);
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
     color: white;
