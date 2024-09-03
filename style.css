@@ -36,25 +36,30 @@ header{
     padding-bottom: 30px;
 }
 
-#buttons{
+.buttons{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;
-    
 }
 
 #buttontask {
+    width: 95px;
+    height: 40px;
     background-color: rgb(0, 132, 255);
     color: white;
-    border-radius: 10%;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: rgb(0, 132, 255);
 }
 
 #buttonsection{
+    width: 100px;
+    height: 40px;
     background-color: rgb(255, 255, 255);
     color: rgb(155, 155, 155);
-    border-radius: 10%;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: gray;
 }
 
 #page{
@@ -67,6 +72,7 @@ header{
 h2{
     margin-bottom: 5px;
     padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 .elements{
@@ -74,47 +80,75 @@ h2{
 }
 
 .Editorials{
-    background-color: rgb(0, 132, 255);
-    padding: 6px;
-    border-radius: 30%;
+    background-color: rgb(0, 125, 241);
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
     color: white;
+    font-size: 15px;
 }
 
 .Q1{
-    background-color: rgb(119, 0, 155);
-    padding: 6px;
-    border-radius: 30%;
+    background-color: rgb(180, 0, 235);
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
     color: white;
+    font-size: 15px;
 }
 
 .Recruiting{
     background-color: rgb(0, 155, 96);
-    padding: 6px;
-    border-radius: 30%;
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
     color: white;
+    font-size: 15px;
 }
 
 .Mobile{
-    background-color: rgb(224, 108, 0);
-    padding: 6px;
-    border-radius: 30%;
+    background-color: rgb(211, 102, 0);
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
     color: white;
+    font-size: 15px;
 }
 
 .Website{
-    background-color: rgb(224, 0, 123);
-    padding: 6px;
-    border-radius: 30%;
+    background-color: rgb(255, 0, 140);
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
     color: white;
+    font-size: 15px;
 }
 
 .Sales{
-    background-color: rgb(49, 156, 0);
-    padding: 6px;
-    border-radius: 30%;
+    background-color: rgb(83, 156, 0);
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
     color: white;
+    font-size: 15px;
 }
 
 footer{
     background-color: black;
 }
+
+#first-h2{
+    padding-top: 0px;
+}
+
+.done{
+    padding: 3px 5px 3px 5px;
+    color: green;
+    border: 1px solid green;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.undone{
+    padding: 3px 5px 3px 5px;
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+
