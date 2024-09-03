@@ -76,3 +76,24 @@ h2{
     border-radius: 30%;
     color: white;
 }
+
+.Q1{
+    background-color: rgb(119, 0, 155);
+    padding: 6px;
+    border-radius: 30%;
+    color: white;
+}
+
+.Recruiting{
+    background-color: rgb(0, 155, 96);
+    padding: 6px;
+    border-radius: 30%;
+    color: white;
+}
+
+.Mobile{
+    background-color: rgb(224, 108, 0);
+    padding: 6px;
+    border-radius: 30%;
+    color: white;
+}
