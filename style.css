@@ -159,5 +159,5 @@ p{
     font-size: 20px;
     display: inline-block;
     transform: scaleY(0.5);
-    
+    vertical-align: bottom;
 }
