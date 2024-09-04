@@ -53,6 +53,7 @@ header{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;
+    
 }
 
 #buttontask {
@@ -63,6 +64,7 @@ header{
     border-radius: 10px;
     font-size: 14px;
     border-color: var(--buttontask);
+    border-style: none;
 }
 
 #buttonsection{
@@ -72,7 +74,8 @@ header{
     color: var(--buttonsection);
     border-radius: 10px;
     font-size: 14px;
-    border-color: var(--buttonsection);
+    border-style: none;
+    border: solid 1px var(--buttonsection);
 }
 
 #page{
